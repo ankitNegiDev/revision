@@ -1,0 +1,5 @@
+# for deply nested folder node modules
+**/node_modules/ 
+
+# i guess it also work same..
+node_modules/
