@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="selector.css">
+</head>
+<body>
+    <h1>Selector in css</h1>
+    <h2>Element selector</h2>
+    <p>this is the element selector</p>
+    <h3 id="third-heading">this is my third heading and selected by id selector</h3>
+    <h4 class="fourth-heading"> this is my foruth heading selected by the class selector</h4>
+    <input type="text" value="" placeholder="enter something">
+
+    <div class="descendents">
+        <p>first para</p>
+        <span>
+            <p>second para which is inside div at 2nd level</p>
+        </span>
+
+        <span>
+            <div>
+                <div>
+                    <p>deep para</p>
+                </div>
+            </div>
+        </span>
+
+        <div>
+            <div>
+                <p>this is my thrid para at 3rd level</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="sibling">
+        <i>thsi is my para</i>
+        <h5>thsi is heading</h5>
+        <h5>th iss 2nd h5 heading</h5>
+        <i>thsi is sending para</i>
+        <h5>thsi is 1st heading</h5>
+        <h5>th iss 2nd h5 heading</h5>
+    </div>
+
+    <hr>
+    <div class="pseudo-class">
+        <h6>thsi si my h6 heading</h6>
+        <!-- <input type="checkbox"> -->
+        <h6>secodn h6</h6>
+        <h6>third</h6>
+        <h6>fourth</h6>
+    </div>
+</body>
+</html>

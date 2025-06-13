@@ -1,0 +1,7 @@
+h2{
+    color: rgb(187, 158, 255);
+    background-color: rgba(205, 92, 92, 0.342);
+    box-shadow: 2px 2px 10px black;
+    padding: 1rem;
+    text-align: center;
+}

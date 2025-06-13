@@ -1,0 +1,70 @@
+/* universal selector */
+*{
+    background-color: #1c5151;
+    font-family: monospace;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.26);
+}
+
+/* element selector */
+h2,p{
+    background-color: rgba(127, 255, 212, 0.496);
+    
+}
+
+/* id seelector */
+
+#third-heading{
+    background-color: #80ff0052;
+}
+
+/* class seelector */
+
+.fourth-heading{
+    background-color: blueviolet;
+}
+
+/* attribute selector */
+input[type="text"]{
+    background-color: rgba(76, 21, 1, 0.942);
+}
+
+input[type="text"]:active{
+    background-color: aqua;
+    /* border: 2px solid aqua; */
+}
+
+/* descendent selector */
+.descendents p{
+    background-color: rgb(13, 168, 220);
+}
+
+.descendents span p{
+    background-color: rgba(255, 0, 0, 0.477);
+}
+
+/* adjacent sibling combinator */
+
+.sibling i+h5{
+    background-color: cornflowerblue;
+}
+
+/* pseudo class */
+.pseudo-class h6:hover{
+    background-color: red;
+}
+.pseudo-class h6:active{
+    background-color: pink;
+}
+.pseudo-class input:checked{
+    background-color: blue;
+    border: 2px solid red;
+}
+
+.pseudo-class h6:nth-of-type(2n){
+    background-color: blueviolet;
+}
+
+.pseudo-class h6:nth-child(2n+1){
+    background-color: red;
+}
+
