@@ -1,6 +1,5 @@
 // function Child({name,age,city}){
 
-import { memo } from "react";
 
 //     console.log("hii i am child ");
 
@@ -15,7 +14,7 @@ import { memo } from "react";
 
 // export default Child;
 
-
+import { memo } from "react";
 const Child=memo(function callback({name,age,city}){
 
     console.log("hii i am child ");

@@ -15,12 +15,12 @@ function Memo(){
 
 
     return (
-        <>
+        <div>
             <div>Memo</div>
             <Child name="bingo" age={23} city="uttrakhand"/>
             <Child name={name} age={age} city={city}/>
             <button onClick={handelClick}>click : {count}</button>
-        </>
+        </div>
     );
 }
 
